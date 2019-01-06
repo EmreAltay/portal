@@ -13,6 +13,9 @@ return [
     'controllerNamespace' => 'frontend\controllers',
     'defaultRoute' => 'site/home',
     'modules' => [
+	 'duyuru' => [
+            'class' => 'kouosl\duyuru\Module',
+        ],
         'site' => [
             'class' => 'kouosl\site\Module'   // here is our v1 modules
         ],
